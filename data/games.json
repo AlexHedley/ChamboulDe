@@ -1,0 +1,40 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "",
+            "date": "2020-08-08",
+            "description": "",
+            "players": [
+                {
+                    "name": "Alex",
+                    "score": 101
+                },
+                {
+                    "name": "Jon",
+                    "score": 100
+                },
+                {
+                    "name": "Philip",
+                    "score": 67
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "",
+            "date": "2020-09-29",
+            "description": "",
+            "players": [
+                {
+                    "name": "Alex",
+                    "score": 93
+                },
+                {
+                    "name": "Jon",
+                    "score": 102
+                }
+            ]
+        }
+    ]
+}
