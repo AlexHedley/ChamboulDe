@@ -8,15 +8,18 @@
             "players": [
                 {
                     "name": "Alex",
-                    "score": 101
+                    "score": 101,
+                    "winner": true
                 },
                 {
                     "name": "Jon",
-                    "score": 100
+                    "score": 100,
+                    "winner": false
                 },
                 {
                     "name": "Philip",
-                    "score": 67
+                    "score": 67,
+                    "winner": false
                 }
             ]
         },
@@ -28,11 +31,36 @@
             "players": [
                 {
                     "name": "Alex",
-                    "score": 93
+                    "score": 93,
+                    "winner": false
                 },
                 {
                     "name": "Jon",
-                    "score": 102
+                    "score": 102,
+                    "winner": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "",
+            "date": "2021-07-16",
+            "description": "",
+            "players": [
+                {
+                    "name": "Philip",
+                    "score": 100,
+                    "winner": true
+                },
+                {
+                    "name": "Alex",
+                    "score": 105,
+                    "winner": false
+                },
+                {
+                    "name": "Jon",
+                    "score": 65,
+                    "winner": false
                 }
             ]
         }
