@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
     <link rel="stylesheet" href="css/jquery-ui.1.12.1.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.13.0/pivot.min.css"> -->
+    <link rel="stylesheet" href="css/pivot.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="shortcut icon" href="favicon.ico">
@@ -58,6 +60,28 @@
         <div ng-controller="myController">
 
             <div class="container">
+
+                <div class="row">
+                    <div class="col">
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="ui" ng-model="ui" ng-change="generatePivot()">
+                            <label class="form-check-label" for="ui">UI</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+
+                        <div id="output" style="margin: 30px;">
+                            <p>Table...</p>
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="row">
                     <div 
                         ng-repeat="game in games | filter:searchText"
@@ -100,6 +124,9 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
     <script src="js/angular.min.js"></script>
+    <!-- <script src="js/angular-filter.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.13.0/pivot.min.js"></script> -->
+    <script src="js/pivot.min.js"></script>
     <script src="js/app.js"></script>
     </body>
 </html>
